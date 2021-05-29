@@ -46,11 +46,15 @@
     position: fixed!important;
     width: 100%;
 }
+.z-1{
+    z-index: 111;
+}
 .banner-container{
     height: 400px;
     background-image: url("../images/bg1.png");
     background-position: top right;
     background-size: cover;
+    clip-path: polygon(0 0, 100% 0, 100% 83%, 0 100%);
 }
 .banner-image{
     height: 100%;
@@ -66,4 +70,12 @@
 
 .navbar .active{
     border-bottom: 2px solid white;
+}
+
+.mt-10{
+    margin-top: 10rem;
+}
+
+.text-shadow{
+    text-shadow: 2px 2px #ff0000;
 }
